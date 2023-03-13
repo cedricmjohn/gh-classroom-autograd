@@ -9,5 +9,5 @@ class HelloWorld:
         return self.message
     
     def say_number(self):
-        '''Return the number rounded down to the nearest int'''
+        '''Return the number rounded to the nearest full value as a float'''
         return self.number
