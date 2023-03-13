@@ -6,8 +6,8 @@ class HelloWorld:
 
     def say_hello(self):
         '''Return the message in all caps'''
-        return self.message
+        return self.message.upper()
     
     def say_number(self):
         '''Return the number rounded to the nearest full value as a float'''
-        return self.number
+        return float(round(self.number))
